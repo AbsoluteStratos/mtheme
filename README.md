@@ -1,12 +1,6 @@
-## Metropolis
+## Metropolis for Notre Dame
 
-
-**IMPORTANT NOTICES FOR VERSION 1.0**
-
-* The package and theme name changed from *m* to *metropolis*!
-* The `title format` values have been restructured. Please refer to the
-  [manual][].
-
+My personal adaptation for the Metropolis beamer theme to coincide with Notre Dame colors. 
 ---
 
 Metropolis is a simple, modern Beamer theme suitable for anyone to use. It tries
