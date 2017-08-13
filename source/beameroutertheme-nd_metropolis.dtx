@@ -162,6 +162,7 @@
 }
 \defbeamertemplate{frametitle}{plain}{%
   \nointerlineskip%
+  \hbox{%
   \begin{beamercolorbox}[%
       wd=\paperwidth,%
       sep=0pt,%
@@ -173,6 +174,23 @@
   \nolinebreak%
   \metropolis@frametitlestrut@end%
   \end{beamercolorbox}%
+
+  \hspace{-0.35\paperwidth}%
+  \begin{beamercolorbox}[%
+      wd=0.4\paperwidth,%
+      sep=0pt,%
+      rightskip=\metropolis@frametitle@padding,%
+      right,%Justify right
+    ]{}%
+    \rule{0pt}{\metropolis@frametitle@padding}
+    \tiny{University of Notre Dame}%
+    
+    \vspace{-0.2em}%
+    \tiny{Computational Science and Engineering}%
+    \nolinebreak%
+    \metropolis@frametitlestrut@end%
+  \end{beamercolorbox}%
+  }
 }
 \setbeamertemplate{frametitle continuation}{%
   \usebeamerfont{frametitle}
@@ -188,7 +206,7 @@
 %    \begin{macrocode}
 \newlength{\metropolis@progressinheadfoot}
 \newlength{\metropolis@progressinheadfoot@linewidth}
-\setlength{\metropolis@progressinheadfoot@linewidth}{0.4pt}
+\setlength{\metropolis@progressinheadfoot@linewidth}{1.4pt}
 \setbeamertemplate{progress bar in head/foot}{
   \nointerlineskip
   \setlength{\metropolis@progressinheadfoot}{%
