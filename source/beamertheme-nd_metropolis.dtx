@@ -142,10 +142,15 @@
 % the theme.
 %
 %    \begin{macrocode}
-\useinnertheme{metropolis}
-\useoutertheme{metropolis}
-\usecolortheme{metropolis}
-\usefonttheme{metropolis}
+%Call all sub-packages (Don't use beamer \usexxxtheme to allow for custom package location)
+%\useinnertheme{metropolis}
+%\useoutertheme{metropolis}
+%\usecolortheme{metropolis}
+%\usefonttheme{metropolis}
+\usepackage{beamerinnertheme-nd_metropolis}
+\usepackage{beameroutertheme-nd_metropolis}
+\usepackage{beamercolortheme-nd_metropolis}
+\usepackage{beamerfonttheme-nd_metropolis}
 %    \end{macrocode}
 %
 % The |tol| theme for |pgfplots| is only loaded if |pgfplots| is used.

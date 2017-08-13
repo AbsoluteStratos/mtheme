@@ -1,5 +1,5 @@
 MAKEFLAGS  := -j 1
-INS         = source/beamerthememetropolis.ins
+INS         = source/beamertheme-nd_metropolis.ins
 PACKAGE_SRC = $(wildcard source/*.dtx)
 PACKAGE_STY = $(notdir $(PACKAGE_SRC:%.dtx=%.sty))
 DEMO_SRC    = demo/demo.tex demo/demo.bib
