@@ -147,10 +147,21 @@
 %\useoutertheme{metropolis}
 %\usecolortheme{metropolis}
 %\usefonttheme{metropolis}
-\usepackage{beamerinnertheme-nd_metropolis}
-\usepackage{beameroutertheme-nd_metropolis}
-\usepackage{beamercolortheme-nd_metropolis}
-\usepackage{beamerfonttheme-nd_metropolis}
+%%%NOTE THIS CURRENTLY DOESNT WORK%%%
+\pgfkeys{/metropolis/.cd,
+  path/.initial=theme/,
+  path/.get=\path,
+  path/.store in=\path,
+}
+
+%\ProcessPgfOptions{/metropolis} %Throws errors
+
+\providecommand{\tikzexternalenable}{}
+\providecommand{\tikzexternaldisable}{}
+\usepackage{\path beamerinnertheme-nd_metropolis}
+\usepackage{\path beameroutertheme-nd_metropolis}
+\usepackage{\path beamercolortheme-nd_metropolis}
+\usepackage{\path beamerfonttheme-nd_metropolis}
 %    \end{macrocode}
 %
 % The |tol| theme for |pgfplots| is only loaded if |pgfplots| is used.
