@@ -1,5 +1,4 @@
 ## Metropolis for Notre Dame
----
 
 My personal adaptation for the [Metropolis Beamer Theme](https://github.com/matze/mtheme) 
 to coincide with Notre Dame's branding.
@@ -7,7 +6,6 @@ Metropolis is a simple, modern beamer theme that focuses on removing unnecessary
 and maximizing content space. The core design
 principles of the theme were described in a blog post
 [here](http://bloerg.net/2014/09/20/a-modern-beamer-theme.html).
----
 
 ![Sample](http://i.imgur.com/pOAqeHz.png)
 
