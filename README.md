@@ -1,4 +1,5 @@
 ## Metropolis for Notre Dame
+---
 
 My personal adaptation for the [Metropolis Beamer Theme](https://github.com/matze/mtheme) 
 to coincide with Notre Dame's branding.
@@ -8,7 +9,7 @@ principles of the theme were described in a blog post
 [here](http://bloerg.net/2014/09/20/a-modern-beamer-theme.html).
 ---
 
-![Sample](http://i.imgur.com/Bxu52fz.png)
+![Sample](http://i.imgur.com/pOAqeHz.png)
 
 
 ## Installation
@@ -26,7 +27,10 @@ steps:
    or move the `*.sty` files to a folder in your TeX path instead (might require
    `sudo` rights).
 
-4. **Use the theme for your presentation** by declaring `\usetheme{metropolis}` in
+4. **Place .sty files in a folder called 'theme'** in the same directory as your
+  main.tex.
+
+5. **Use the theme for your presentation** by declaring `\usetheme{metropolis}` in
     the preamble of your Beamer document.
 
 
